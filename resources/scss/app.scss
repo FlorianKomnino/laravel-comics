@@ -2,12 +2,26 @@
 
 .headerTop {
     background-color: #0282f9;
-    height: 25px;
+    height: 15px;
     color: white;
     justify-content: end;
-    padding: 0 10rem;
+    padding: 0 9rem;
 
     p {
         padding: 0 1rem;
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        font-weight: 700;
     }
+}
+
+.customNavbarItem {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.jumbotron {
+    height: 350px;
+    overflow: hidden;
 }
