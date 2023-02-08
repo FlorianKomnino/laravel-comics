@@ -1,1 +1,13 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+.headerTop {
+    background-color: #0282f9;
+    height: 25px;
+    color: white;
+    justify-content: end;
+    padding: 0 10rem;
+
+    p {
+        padding: 0 1rem;
+    }
+}
