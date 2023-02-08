@@ -29,9 +29,9 @@
                         <div class="col-7 d-flex align-items-center">
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
-                                    <?php foreach ($dcComicsMenu as $menuItem) { ?>
+                                    @foreach ($dcComicsMenu as $menuItem)
                                         <a class="nav-link customNavbarItem" href="#">{{ $menuItem }}</a>
-                                    <?php } ?>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>

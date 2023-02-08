@@ -17,6 +17,7 @@
 
 <body>
 @include('header')
+@include('partials.main.currentSeries')
 @include('main')
 </body>
 
